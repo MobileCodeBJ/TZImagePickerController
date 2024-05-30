@@ -212,7 +212,7 @@ static CGFloat itemMargin = 5;
 }
 
 - (UILabel *)noDataLabel {
-    if (!_noDataLabel) {
+    if (!_noDataLabel) {//test123
         _noDataLabel = [[UILabel alloc] initWithFrame:_collectionView.bounds];
         _noDataLabel.textAlignment = NSTextAlignmentCenter;
         _noDataLabel.text = [NSBundle tz_localizedStringForKey:@"No Photos or Videos"];
